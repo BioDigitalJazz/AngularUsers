@@ -1,0 +1,15 @@
+<hr>
+<section class="userCard">
+  <img src="{{user.avatar}}"> <br/>
+  <h2>{{user.name}}</h2>
+  <h3>{{user.isActive ? "  -Active User" : "  -Inactive User"}}</h3>
+  <p><strong>id: </strong>{{user.id}} <br/>
+  <strong>email: </strong>{{user.email}} <br/>
+  <strong>age: </strong>{{user.age}} <br/>
+  <strong>phone: </strong>{{user.phone}} <br/>
+  <strong>address: </strong>{{user.address}} <br/>
+  <strong>about this user: </strong>{{user.about}} <br/>
+  <strong>user created on: </strong>{{ user.created | date:'short'}}</p><br/>
+</section>
+<br/>
+

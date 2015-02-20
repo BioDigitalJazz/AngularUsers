@@ -1,1 +1,49 @@
 /* Your styles here */
+html { 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.userCard p {
+  float: left;
+}
+
+hr {
+  display: block;
+  clear: both;
+}
+
+img {
+  float: left;
+}
+
+h2 {
+  float: left;
+  clear: right;
+}
+
+h3 {
+  float: left;
+  clear: left;
+}
+
+input[type="text"] {
+  display: inline-block;
+  margin: 20px 30px;
+  width: 70%;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+  font-size: 20px;
+}
+
+input[type="text"]:focus {
+  border: solid 1px #000033;
+  box-shadow: 0 0 5px 1px #969696;
+}
+

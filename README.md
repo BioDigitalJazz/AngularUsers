@@ -24,3 +24,4 @@ The goal is to build a user search that displays user profiles and allows them t
 ## Notes
 
 * The included AngularJS library is version 1.3.10. When looking at the docs, you should make sure you switch to that version. You can select that in the top left.
+ 
